@@ -1,0 +1,49 @@
+/* small screen css */
+
+
+.col {
+    border: 0px solid rgba(0,0,0,0);
+    float: left;
+    -moz-background-clip: padding-box !important;
+    -webkit-background-clip: padding-box !important;
+    background-clip: padding-box !important;
+}
+
+.container {
+	padding: 0 40px;
+}
+
+#site-footer-bottom {
+    padding: 25px 0 40px;
+}
+
+#content > section {
+	padding: 20px 0;
+}
+
+.row {
+    margin-left: -20px;
+}
+
+.col {
+    border-left-width: 20px;
+	padding: 0 0px;
+}
+
+
+.small-col-1 {
+    width: 33.3333333333%;
+}
+
+.small-col-2 {
+    width: 66.6666666667%;
+}
+
+.small-halves .col {
+	width: 50%;
+}
+
+.small-full {
+    margin-left: 0;
+    width: 100%;
+}
